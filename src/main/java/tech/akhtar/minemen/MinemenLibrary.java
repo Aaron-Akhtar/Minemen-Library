@@ -44,6 +44,10 @@ public class MinemenLibrary {
         return wikiArticles;
     }
 
+    /***
+     *
+     * @return List of the Top Five Resources
+     */
     public static List<Resource> getTopFiveRatedResources(){
         List<Resource> resources = new ArrayList<>();
         List<String> source = Web.getWebSourceCode("/resources/?order=rating_weighted");
