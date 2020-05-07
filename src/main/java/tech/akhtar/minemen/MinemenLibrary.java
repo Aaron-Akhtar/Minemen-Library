@@ -53,12 +53,8 @@ public class MinemenLibrary {
         List<String> source = Web.getWebSourceCode("/resources/?order=rating_weighted");
         for (int f = 0; f < source.size(); f++) {
             if (resources.size() == 4) break;
-            String x = source.get(f);                           //source.get(f + 23).split("\"")[3].charAt(0)
+            String x = source.get(f);
             if (x.contains("structItem-title")){
-             //   System.out.println("1 " + source.get(f + 23));
-           //     System.out.println("2 " + source.get(f + 37 + 5));
-               // System.out.println(source.get(f + 37 + Integer.parseInt(Character.toString(source.get(f + 23).split("\"")[3].charAt(0)))));
-                //System.out.println(source.get(f + 23));
                 resources.add(new Resource(
                         source.get(f + 3).replaceAll("\\s", ""),
                         source.get(f + 14).replaceAll("\\s", "").replaceAll("\\<.*?>", ""),
