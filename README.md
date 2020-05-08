@@ -1,10 +1,10 @@
 # Minemen-Library
 A library for the minemen forums (https://minemen.com), this library utilises Web Scraping.
 
-# <-- PLEASE READ
+<-- PLEASE READ
 As this library fetches information utilizing web scraping there may be issues that occur in the future, this can occur if a file is renamed or a CSS Style is renamed, at the point of a issue like this occuring please make a issue request or contact me via email:
  - contact@aaronakhtar.me
-# PLEASE READ -->
+PLEASE READ -->
 
 Example one:
 ```java
