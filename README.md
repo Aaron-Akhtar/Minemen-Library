@@ -26,4 +26,10 @@ for (Object e : s){
 }
 ```
 
+Example three:
+```java
+ForumThread forumThread = MinemenLibrary.getLatestNewsPost();
+System.out.println(forumThread.getThreadTitle() + "  " + forumThread.getDatePosted() + "  " + forumThread.getThreadCreator() + "  " + forumThread.getThreadUrlFull());
+```
+
 A Akhtar Technologies Production.
